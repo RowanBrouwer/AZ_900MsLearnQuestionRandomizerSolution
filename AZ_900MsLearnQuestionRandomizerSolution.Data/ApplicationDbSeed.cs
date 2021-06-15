@@ -460,6 +460,366 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
 
                 db.Add(question23);
 
+                var question24 = new Question
+                {
+                    ActualQuestion = "A company wants to build a new voting kiosk for sales to governments around the world. Which IoT technologies should the company choose to ensure the highest degree of security?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ24 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "IoT Hub"},
+                        new Awnser{ActualAwnser = "IoT Central"},
+                        new Awnser{ActualAwnser = "Azure Sphere"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ24);
+
+                question24.Awnsers = AwnsersOfQ24;
+                question24.CorrectAwnser = AwnsersOfQ24.FirstOrDefault(a => a.ActualAwnser == "Azure Sphere");
+
+                db.Add(question24);
+
+                var question25 = new Question
+                {
+                    ActualQuestion = "A company wants to build a new voting kiosk for sales to governments around the world. Which IoT technologies should the company choose to ensure the highest degree of security?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ25 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "IoT Hub"},
+                        new Awnser{ActualAwnser = "IoT Central"},
+                        new Awnser{ActualAwnser = "Azure Sphere"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ25);
+
+                question25.Awnsers = AwnsersOfQ25;
+                question25.CorrectAwnser = AwnsersOfQ25.FirstOrDefault(a => a.ActualAwnser == "IoT Central");
+
+                db.Add(question25);
+
+                var question26 = new Question
+                {
+                    ActualQuestion = "You want to send messages from the IoT device to the cloud and vice versa. Which IoT technology can send and receive messages?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ26 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "IoT Hub"},
+                        new Awnser{ActualAwnser = "IoT Central"},
+                        new Awnser{ActualAwnser = "Azure Sphere"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ26);
+
+                question26.Awnsers = AwnsersOfQ26;
+                question26.CorrectAwnser = AwnsersOfQ26.FirstOrDefault(a => a.ActualAwnser == "IoT Hub");
+
+                db.Add(question26);
+
+                var question27 = new Question
+                {
+                    ActualQuestion = "You need to predict future behavior based on previous actions. Which product option should you select as a candidate?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ27 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "Azure Machine Learning"},
+                        new Awnser{ActualAwnser = "Azure Bot Service"},
+                        new Awnser{ActualAwnser = "Azure Cognitive Services"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ27);
+
+                question27.Awnsers = AwnsersOfQ27;
+                question27.CorrectAwnser = AwnsersOfQ27.FirstOrDefault(a => a.ActualAwnser == "Azure Machine Learning");
+
+                db.Add(question27);
+
+                var question28 = new Question
+                {
+                    ActualQuestion = "You need to create a human-computer interface that uses natural language to answer customer questions. Which product option should you select as a candidate?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ28 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "Azure Machine Learning"},
+                        new Awnser{ActualAwnser = "Azure Cognitive Services"},
+                        new Awnser{ActualAwnser = "Azure Bot Service"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ28);
+
+                question28.Awnsers = AwnsersOfQ28;
+                question28.CorrectAwnser = AwnsersOfQ28.FirstOrDefault(a => a.ActualAwnser == "Azure Bot Service");
+
+                db.Add(question28);
+
+                var question29 = new Question
+                {
+                    ActualQuestion = "You need to predict future behavior based on previous actions. Which product option should you select as a candidate?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ29 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "Azure Machine Learning"},
+                        new Awnser{ActualAwnser = "Azure Cognitive Services"},
+                        new Awnser{ActualAwnser = "Azure Bot Service"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ29);
+
+                question29.Awnsers = AwnsersOfQ29;
+                question29.CorrectAwnser = AwnsersOfQ29.FirstOrDefault(a => a.ActualAwnser == "Azure Bot Service");
+
+                db.Add(question29);
+
+                var question30 = new Question
+                {
+                    ActualQuestion = "You need to identify the content of product images to automatically create alt tags for images formatted properly. Which product option is the best candidate?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ30 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "Azure Machine Learning"},
+                        new Awnser{ActualAwnser = "Azure Cognitive Services"},
+                        new Awnser{ActualAwnser = "Azure Bot Service"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ30);
+
+                question30.Awnsers = AwnsersOfQ30;
+                question30.CorrectAwnser = AwnsersOfQ30.FirstOrDefault(a => a.ActualAwnser == "Azure Cognitive Services");
+
+                db.Add(question30);
+
+                var question31 = new Question
+                {
+                    ActualQuestion = "You need to process messages from a queue, parse them by using some existing imperative logic written in Java, and then send them to a third-party API. Which serverless option should you choose?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ31 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "Azure Functions"},
+                        new Awnser{ActualAwnser = "Azure Logic Apps"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ31);
+
+                question31.Awnsers = AwnsersOfQ31;
+                question31.CorrectAwnser = AwnsersOfQ31.FirstOrDefault(a => a.ActualAwnser == "Azure Functions");
+
+                db.Add(question31);
+
+                var question32 = new Question
+                {
+                    ActualQuestion = "You want to orchestrate a workflow by using APIs from several well-known services. Which is the best option for this scenario?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ32 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "Azure Functions"},
+                        new Awnser{ActualAwnser = "Azure Logic Apps"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ32);
+
+                question32.Awnsers = AwnsersOfQ32;
+                question32.CorrectAwnser = AwnsersOfQ32.FirstOrDefault(a => a.ActualAwnser == "Azure Logic Apps");
+
+                db.Add(question32);
+
+                var question33 = new Question
+                {
+                    ActualQuestion = "Your team has limited experience with writing custom code, but it sees tremendous value in automating several important business processes. Which of the following options is your team's best option?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ33 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "Azure Functions"},
+                        new Awnser{ActualAwnser = "Azure Logic Apps"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ33);
+
+                question33.Awnsers = AwnsersOfQ33;
+                question33.CorrectAwnser = AwnsersOfQ33.FirstOrDefault(a => a.ActualAwnser == "Azure Logic Apps");
+
+                db.Add(question33);
+
+                var question34 = new Question
+                {
+                    ActualQuestion = "Which of the following choices would not be used to automate a CI/CD process?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ34 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "Azure Pipelines"},
+                        new Awnser{ActualAwnser = "GitHub Actions"}, 
+                        new Awnser{ActualAwnser = "Azure Boards"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ34);
+
+                question34.Awnsers = AwnsersOfQ34;
+                question34.CorrectAwnser = AwnsersOfQ34.FirstOrDefault(a => a.ActualAwnser == "Azure Boards");
+
+                db.Add(question34);
+
+                var question35 = new Question
+                {
+                    ActualQuestion = "Which service could help you manage the VMs that your developers and testers need to ensure that your new app works across various operating systems?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ35 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "Azure DevTest Labs"},
+                        new Awnser{ActualAwnser = "Azure Test Labs"},
+                        new Awnser{ActualAwnser = "Azure Repos"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ35);
+
+                question35.Awnsers = AwnsersOfQ35;
+                question35.CorrectAwnser = AwnsersOfQ35.FirstOrDefault(a => a.ActualAwnser == "Azure DevTest Labs");
+
+                db.Add(question35);
+
+                var question36 = new Question
+                {
+                    ActualQuestion = "Which service lacks features to assign individual developers tasks to work on?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ36 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "Azure Boards"},
+                        new Awnser{ActualAwnser = "GitHub"},
+                        new Awnser{ActualAwnser = "Azure Pipelines"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ36);
+
+                question36.Awnsers = AwnsersOfQ36;
+                question36.CorrectAwnser = AwnsersOfQ36.FirstOrDefault(a => a.ActualAwnser == "Azure Pipelines");
+
+                db.Add(question36);
+
+                var question37 = new Question
+                {
+                    ActualQuestion = "As an administrator, you need to retrieve the IP address from a particular VM by using Bash. Which of the following tools should you use?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ37 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "ARM templates"},
+                        new Awnser{ActualAwnser = "Azure PowerShell"},
+                        new Awnser{ActualAwnser = "The Azure portal"},
+                        new Awnser{ActualAwnser = "The Azure CLI"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ37);
+
+                question37.Awnsers = AwnsersOfQ37;
+                question37.CorrectAwnser = AwnsersOfQ37.FirstOrDefault(a => a.ActualAwnser == "The Azure CLI");
+
+                db.Add(question37);
+
+                var question38 = new Question
+                {
+                    ActualQuestion = "You're a developer who needs to set up your first VM to host a process that runs nightly. Which of the following tools is your best choice?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ38 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "ARM templates"},
+                        new Awnser{ActualAwnser = "Azure PowerShell"},
+                        new Awnser{ActualAwnser = "The Azure portal"},
+                        new Awnser{ActualAwnser = "The Azure CLI"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ38);
+
+                question38.Awnsers = AwnsersOfQ38;
+                question38.CorrectAwnser = AwnsersOfQ38.FirstOrDefault(a => a.ActualAwnser == "The Azure portal");
+
+                db.Add(question38);
+
+                var question39 = new Question
+                {
+                    ActualQuestion = "What is the best infrastructure-as-code option for quickly and reliably setting up your entire cloud infrastructure declaratively?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ39 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "ARM templates"},
+                        new Awnser{ActualAwnser = "Azure PowerShell"},
+                        new Awnser{ActualAwnser = "The Azure portal"},
+                        new Awnser{ActualAwnser = "The Azure CLI"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ39);
+
+                question39.Awnsers = AwnsersOfQ39;
+                question39.CorrectAwnser = AwnsersOfQ39.FirstOrDefault(a => a.ActualAwnser == "ARM templates");
+
+                db.Add(question39);
+
+                var question40 = new Question
+                {
+                    ActualQuestion = "You want to be alerted when new recommendations to improve your cloud environment are available. Which service will do this?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ40 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "Azure Advisor"},
+                        new Awnser{ActualAwnser = "Azure Monitor"},
+                        new Awnser{ActualAwnser = "Azure Service Health"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ40);
+
+                question40.Awnsers = AwnsersOfQ40;
+                question40.CorrectAwnser = AwnsersOfQ40.FirstOrDefault(a => a.ActualAwnser == "Azure Advisor");
+
+                db.Add(question40);
+
+                var question41 = new Question
+                {
+                    ActualQuestion = "Which service provides official outage root cause analyses (RCAs) for Azure incidents?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ41 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "Azure Advisor"},
+                        new Awnser{ActualAwnser = "Azure Monitor"},
+                        new Awnser{ActualAwnser = "Azure Service Health"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ41);
+
+                question41.Awnsers = AwnsersOfQ41;
+                question41.CorrectAwnser = AwnsersOfQ41.FirstOrDefault(a => a.ActualAwnser == "Azure Service Health");
+
+                db.Add(question41);
+
+                var question42 = new Question
+                {
+                    ActualQuestion = "Which service is a platform that powers Application Insights, monitoring for VMs, containers, and Kubernetes?",
+                    Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
+                };
+
+                var AwnsersOfQ42 = new List<Awnser>()
+                {
+                        new Awnser{ActualAwnser = "Azure Advisor"},
+                        new Awnser{ActualAwnser = "Azure Monitor"},
+                        new Awnser{ActualAwnser = "Azure Service Health"},
+                };
+                db.Awnsers.AddRange(AwnsersOfQ42);
+
+                question42.Awnsers = AwnsersOfQ42;
+                question42.CorrectAwnser = AwnsersOfQ42.FirstOrDefault(a => a.ActualAwnser == "Azure Monitor");
+
+                db.Add(question42);
 
                 db.SaveChanges();
             }
