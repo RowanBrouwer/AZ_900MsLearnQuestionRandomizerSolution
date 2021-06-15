@@ -557,7 +557,7 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
 
                 var question29 = new Question
                 {
-                    ActualQuestion = "You need to predict future behavior based on previous actions. Which product option should you select as a candidate?",
+                    ActualQuestion = "You need to identify the content of product images to automatically create alt tags for images formatted properly. Which product option is the best candidate?",
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
