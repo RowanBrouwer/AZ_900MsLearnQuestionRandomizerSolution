@@ -10,8 +10,8 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data.Models
     {
         public int Id { get; set; }
         public string ActualQuestion { get; set; }
-        public IEnumerable<Awnser> Awnsers { get; set; }
-        public Awnser CorrectAwnser { get; set; }
+        public IEnumerable<Answer> Answers { get; set; }
+        public Answer CorrectAnswer { get; set; }
         public ChapterEnum Chapter { get; set; }
     }
 }

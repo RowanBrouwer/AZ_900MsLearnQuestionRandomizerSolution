@@ -24,7 +24,7 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
         }
 
         public DbSet<Question> Questions { get; set; }
-        public DbSet<Awnser> Awnsers { get; set; }
+        public DbSet<Answer> Answers { get; set; }
 
     }
 }

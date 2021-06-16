@@ -7,9 +7,5 @@ using System.Threading.Tasks;
 
 namespace AZ_900MsLearnQuestionRandomizerSolution.Data.Logic
 {
-    public interface IAwnserLogic
-    {
-        public Task<bool> AwnserCheck(Awnser awnser, Question question);
-        public Task<List<Question>> GetRandomizedList();
-    }
+
 }
