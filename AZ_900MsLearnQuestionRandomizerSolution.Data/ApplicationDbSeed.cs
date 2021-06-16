@@ -26,17 +26,17 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Concepts,
                 };
 
-                var AwnsersOfQ1 = new List<Awnser>()
+                var AnswersOfQ1 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Networking-as-a-Service (NaaS)"},
-                        new Awnser{ActualAwnser = "Platform-as-a-Service (PaaS)"},
-                        new Awnser{ActualAwnser = "Infrastructure-as-a-Service (IaaS)"},
-                        new Awnser{ActualAwnser = "Software-as-a-Service (SaaS)"}
+                        new Answer{ActualAnswer = "Networking-as-a-Service (NaaS)"},
+                        new Answer{ActualAnswer = "Platform-as-a-Service (PaaS)"},
+                        new Answer{ActualAnswer = "Infrastructure-as-a-Service (IaaS)"},
+                        new Answer{ActualAnswer = "Software-as-a-Service (SaaS)"}
                 };
-                db.Awnsers.AddRange(AwnsersOfQ1);
+                db.Answers.AddRange(AnswersOfQ1);
 
-                question1.Awnsers = AwnsersOfQ1;
-                question1.CorrectAwnser = AwnsersOfQ1.FirstOrDefault(a => a.ActualAwnser == "Networking-as-a-Service (NaaS)");
+                question1.Answers = AnswersOfQ1;
+                question1.CorrectAnswer = AnswersOfQ1.FirstOrDefault(a => a.ActualAnswer == "Networking-as-a-Service (NaaS)");
 
                 db.Add(question1);
 
@@ -46,16 +46,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Concepts,
                 };
 
-                var AwnsersOfQ2 = new List<Awnser>()
+                var AnswersOfQ2 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "With Operating Expenses (OpEx), you are responsible for purchasing and maintaining your computing resources."},
-                        new Awnser{ActualAwnser = "With Operating Expenses (OpEx), you are only responsible for the computing resources that you use."},
-                        new Awnser{ActualAwnser = "With Capital Expenses (CapEx), you are only responsible for the computing resources that you use."},
+                        new Answer{ActualAnswer = "With Operating Expenses (OpEx), you are responsible for purchasing and maintaining your computing resources."},
+                        new Answer{ActualAnswer = "With Operating Expenses (OpEx), you are only responsible for the computing resources that you use."},
+                        new Answer{ActualAnswer = "With Capital Expenses (CapEx), you are only responsible for the computing resources that you use."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ2);
+                db.Answers.AddRange(AnswersOfQ2);
 
-                question2.Awnsers = AwnsersOfQ2;
-                question2.CorrectAwnser = AwnsersOfQ2.FirstOrDefault(a => a.ActualAwnser == "With Operating Expenses (OpEx), you are only responsible for the computing resources that you use.");
+                question2.Answers = AnswersOfQ2;
+                question2.CorrectAnswer = AnswersOfQ2.FirstOrDefault(a => a.ActualAnswer == "With Operating Expenses (OpEx), you are only responsible for the computing resources that you use.");
 
                 db.Add(question2);
 
@@ -65,17 +65,17 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Concepts,
                 };
 
-                var AwnsersOfQ3 = new List<Awnser>()
+                var AnswersOfQ3 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Distributed cloud"},
-                        new Awnser{ActualAwnser = "Hybrid cloud"},
-                        new Awnser{ActualAwnser = "Private cloud"},
-                        new Awnser{ActualAwnser = "Public cloud"}
+                        new Answer{ActualAnswer = "Distributed cloud"},
+                        new Answer{ActualAnswer = "Hybrid cloud"},
+                        new Answer{ActualAnswer = "Private cloud"},
+                        new Answer{ActualAnswer = "Public cloud"}
                 };
-                db.Awnsers.AddRange(AwnsersOfQ3);
+                db.Answers.AddRange(AnswersOfQ3);
 
-                question3.Awnsers = AwnsersOfQ3;
-                question3.CorrectAwnser = AwnsersOfQ3.FirstOrDefault(a => a.ActualAwnser == "Distributed cloud");
+                question3.Answers = AnswersOfQ3;
+                question3.CorrectAnswer = AnswersOfQ3.FirstOrDefault(a => a.ActualAnswer == "Distributed cloud");
 
                 db.Add(question3);
 
@@ -86,17 +86,17 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Concepts,
                 };
 
-                var AwnsersOfQ4 = new List<Awnser>()
+                var AnswersOfQ4 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Scalability"},
-                        new Awnser{ActualAwnser = "Disaster recovery"},
-                        new Awnser{ActualAwnser = "High availability"},
-                        new Awnser{ActualAwnser = "Geographic isolation"}
+                        new Answer{ActualAnswer = "Scalability"},
+                        new Answer{ActualAnswer = "Disaster recovery"},
+                        new Answer{ActualAnswer = "High availability"},
+                        new Answer{ActualAnswer = "Geographic isolation"}
                 };
-                db.Awnsers.AddRange(AwnsersOfQ4);
+                db.Answers.AddRange(AnswersOfQ4);
 
-                question4.Awnsers = AwnsersOfQ4;
-                question4.CorrectAwnser = AwnsersOfQ4.FirstOrDefault(a => a.ActualAwnser == "Geographic isolation");
+                question4.Answers = AnswersOfQ4;
+                question4.CorrectAnswer = AnswersOfQ4.FirstOrDefault(a => a.ActualAnswer == "Geographic isolation");
 
                 db.Add(question4);
 
@@ -106,15 +106,15 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Concepts,
                 };
 
-                var AwnsersOfQ5 = new List<Awnser>()
+                var AnswersOfQ5 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "False"},
-                        new Awnser{ActualAwnser = "True"},
+                        new Answer{ActualAnswer = "False"},
+                        new Answer{ActualAnswer = "True"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ5);
+                db.Answers.AddRange(AnswersOfQ5);
 
-                question5.Awnsers = AwnsersOfQ5;
-                question5.CorrectAwnser = AwnsersOfQ5.FirstOrDefault(a => a.ActualAwnser == "False");
+                question5.Answers = AnswersOfQ5;
+                question5.CorrectAnswer = AnswersOfQ5.FirstOrDefault(a => a.ActualAnswer == "False");
 
                 db.Add(question5);
 
@@ -124,16 +124,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Concepts,
                 };
 
-                var AwnsersOfQ6 = new List<Awnser>()
+                var AnswersOfQ6 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Delivery of computing services over the internet."},
-                        new Awnser{ActualAwnser = "Setting up your own datacenter."},
-                        new Awnser{ActualAwnser = "Using the internet."},
+                        new Answer{ActualAnswer = "Delivery of computing services over the internet."},
+                        new Answer{ActualAnswer = "Setting up your own datacenter."},
+                        new Answer{ActualAnswer = "Using the internet."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ6);
+                db.Answers.AddRange(AnswersOfQ6);
 
-                question6.Awnsers = AwnsersOfQ6;
-                question6.CorrectAwnser = AwnsersOfQ6.FirstOrDefault(a => a.ActualAwnser == "Delivery of computing services over the internet.");
+                question6.Answers = AnswersOfQ6;
+                question6.CorrectAnswer = AnswersOfQ6.FirstOrDefault(a => a.ActualAnswer == "Delivery of computing services over the internet.");
 
                 db.Add(question6);
 
@@ -143,16 +143,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Concepts,
                 };
 
-                var AwnsersOfQ7 = new List<Awnser>()
+                var AnswersOfQ7 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Faster innovation"},
-                        new Awnser{ActualAwnser = "A limited pool of services"},
-                        new Awnser{ActualAwnser = "Speech recognition and other cognitive services"},
+                        new Answer{ActualAnswer = "Faster innovation"},
+                        new Answer{ActualAnswer = "A limited pool of services"},
+                        new Answer{ActualAnswer = "Speech recognition and other cognitive services"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ7);
+                db.Answers.AddRange(AnswersOfQ7);
 
-                question7.Awnsers = AwnsersOfQ7;
-                question7.CorrectAwnser = AwnsersOfQ7.FirstOrDefault(a => a.ActualAwnser == "A limited pool of services");
+                question7.Answers = AnswersOfQ7;
+                question7.CorrectAnswer = AnswersOfQ7.FirstOrDefault(a => a.ActualAnswer == "A limited pool of services");
 
                 db.Add(question7);
 
@@ -162,16 +162,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Concepts,
                 };
 
-                var AwnsersOfQ8 = new List<Awnser>()
+                var AnswersOfQ8 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure initiatives"},
-                        new Awnser{ActualAwnser = "Management groups"},
-                        new Awnser{ActualAwnser = "Resource groups"},
+                        new Answer{ActualAnswer = "Azure initiatives"},
+                        new Answer{ActualAnswer = "Management groups"},
+                        new Answer{ActualAnswer = "Resource groups"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ8);
+                db.Answers.AddRange(AnswersOfQ8);
 
-                question8.Awnsers = AwnsersOfQ8;
-                question8.CorrectAwnser = AwnsersOfQ8.FirstOrDefault(a => a.ActualAwnser == "Management groups");
+                question8.Answers = AnswersOfQ8;
+                question8.CorrectAnswer = AnswersOfQ8.FirstOrDefault(a => a.ActualAnswer == "Management groups");
 
                 db.Add(question8);
 
@@ -181,17 +181,17 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Concepts,
                 };
 
-                var AwnsersOfQ9 = new List<Awnser>()
+                var AnswersOfQ9 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure subscription"},
-                        new Awnser{ActualAwnser = "Management group"},
-                        new Awnser{ActualAwnser = "Resource group"},
-                        new Awnser{ActualAwnser = "Public cloud"},
+                        new Answer{ActualAnswer = "Azure subscription"},
+                        new Answer{ActualAnswer = "Management group"},
+                        new Answer{ActualAnswer = "Resource group"},
+                        new Answer{ActualAnswer = "Public cloud"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ9);
+                db.Answers.AddRange(AnswersOfQ9);
 
-                question9.Awnsers = AwnsersOfQ9;
-                question9.CorrectAwnser = AwnsersOfQ9.FirstOrDefault(a => a.ActualAwnser == "Azure subscription");
+                question9.Answers = AnswersOfQ9;
+                question9.CorrectAnswer = AnswersOfQ9.FirstOrDefault(a => a.ActualAnswer == "Azure subscription");
 
                 db.Add(question9);
 
@@ -201,16 +201,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Concepts,
                 };
 
-                var AwnsersOfQ10 = new List<Awnser>()
+                var AnswersOfQ10 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Resources can be in only one resource group."},
-                        new Awnser{ActualAwnser = "Role-based access control can be applied to the resource group."},
-                        new Awnser{ActualAwnser = "Resource groups can be nested."},
+                        new Answer{ActualAnswer = "Resources can be in only one resource group."},
+                        new Answer{ActualAnswer = "Role-based access control can be applied to the resource group."},
+                        new Answer{ActualAnswer = "Resource groups can be nested."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ10);
+                db.Answers.AddRange(AnswersOfQ10);
 
-                question10.Awnsers = AwnsersOfQ10;
-                question10.CorrectAwnser = AwnsersOfQ10.FirstOrDefault(a => a.ActualAwnser == "Resource groups can be nested.");
+                question10.Answers = AnswersOfQ10;
+                question10.CorrectAnswer = AnswersOfQ10.FirstOrDefault(a => a.ActualAnswer == "Resource groups can be nested.");
 
                 db.Add(question10);
 
@@ -220,15 +220,15 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Concepts,
                 };
 
-                var AwnsersOfQ11 = new List<Awnser>()
+                var AnswersOfQ11 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Using Azure doesn't require a subscription."},
-                        new Awnser{ActualAwnser = "An Azure subscription is a logical unit of Azure services."},
+                        new Answer{ActualAnswer = "Using Azure doesn't require a subscription."},
+                        new Answer{ActualAnswer = "An Azure subscription is a logical unit of Azure services."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ11);
+                db.Answers.AddRange(AnswersOfQ11);
 
-                question11.Awnsers = AwnsersOfQ11;
-                question11.CorrectAwnser = AwnsersOfQ11.FirstOrDefault(a => a.ActualAwnser == "An Azure subscription is a logical unit of Azure services.");
+                question11.Answers = AnswersOfQ11;
+                question11.CorrectAnswer = AnswersOfQ11.FirstOrDefault(a => a.ActualAnswer == "An Azure subscription is a logical unit of Azure services.");
 
                 db.Add(question11);
 
@@ -238,16 +238,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Services,
                 };
 
-                var AwnsersOfQ12 = new List<Awnser>()
+                var AnswersOfQ12 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Virtual machine scale sets"},
-                        new Awnser{ActualAwnser = "Virtual machine availability sets"},
-                        new Awnser{ActualAwnser = "Virtual machine availability zones"},
+                        new Answer{ActualAnswer = "Virtual machine scale sets"},
+                        new Answer{ActualAnswer = "Virtual machine availability sets"},
+                        new Answer{ActualAnswer = "Virtual machine availability zones"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ12);
+                db.Answers.AddRange(AnswersOfQ12);
 
-                question12.Awnsers = AwnsersOfQ12;
-                question12.CorrectAwnser = AwnsersOfQ12.FirstOrDefault(a => a.ActualAwnser == "Virtual machine scale sets");
+                question12.Answers = AnswersOfQ12;
+                question12.CorrectAnswer = AnswersOfQ12.FirstOrDefault(a => a.ActualAnswer == "Virtual machine scale sets");
 
                 db.Add(question12);
 
@@ -257,16 +257,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Services,
                 };
 
-                var AwnsersOfQ13 = new List<Awnser>()
+                var AnswersOfQ13 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Functions"},
-                        new Awnser{ActualAwnser = "Azure App Service"},
-                        new Awnser{ActualAwnser = "Azure Container Instances"},
+                        new Answer{ActualAnswer = "Azure Functions"},
+                        new Answer{ActualAnswer = "Azure App Service"},
+                        new Answer{ActualAnswer = "Azure Container Instances"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ13);
+                db.Answers.AddRange(AnswersOfQ13);
 
-                question13.Awnsers = AwnsersOfQ13;
-                question13.CorrectAwnser = AwnsersOfQ13.FirstOrDefault(a => a.ActualAwnser == "Azure Functions");
+                question13.Answers = AnswersOfQ13;
+                question13.CorrectAnswer = AnswersOfQ13.FirstOrDefault(a => a.ActualAnswer == "Azure Functions");
 
                 db.Add(question13);
 
@@ -276,16 +276,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Services,
                 };
 
-                var AwnsersOfQ14 = new List<Awnser>()
+                var AnswersOfQ14 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure App Service"},
-                        new Awnser{ActualAwnser = "Windows Virtual Desktop"},
-                        new Awnser{ActualAwnser = "Azure Container Instances"},
+                        new Answer{ActualAnswer = "Azure App Service"},
+                        new Answer{ActualAnswer = "Windows Virtual Desktop"},
+                        new Answer{ActualAnswer = "Azure Container Instances"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ14);
+                db.Answers.AddRange(AnswersOfQ14);
 
-                question14.Awnsers = AwnsersOfQ14;
-                question14.CorrectAwnser = AwnsersOfQ14.FirstOrDefault(a => a.ActualAwnser == "Windows Virtual Desktop");
+                question14.Answers = AnswersOfQ14;
+                question14.CorrectAnswer = AnswersOfQ14.FirstOrDefault(a => a.ActualAnswer == "Windows Virtual Desktop");
 
                 db.Add(question14);
 
@@ -295,17 +295,17 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Services,
                 };
 
-                var AwnsersOfQ15 = new List<Awnser>()
+                var AnswersOfQ15 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Point-to-site virtual private network"},
-                        new Awnser{ActualAwnser = "Implicit FTP over SSL"},
-                        new Awnser{ActualAwnser = "Azure ExpressRoute"},
-                        new Awnser{ActualAwnser = "Site-to-site virtual private network"},
+                        new Answer{ActualAnswer = "Point-to-site virtual private network"},
+                        new Answer{ActualAnswer = "Implicit FTP over SSL"},
+                        new Answer{ActualAnswer = "Azure ExpressRoute"},
+                        new Answer{ActualAnswer = "Site-to-site virtual private network"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ15);
+                db.Answers.AddRange(AnswersOfQ15);
 
-                question15.Awnsers = AwnsersOfQ15;
-                question15.CorrectAwnser = AwnsersOfQ15.FirstOrDefault(a => a.ActualAwnser == "Implicit FTP over SSL");
+                question15.Answers = AnswersOfQ15;
+                question15.CorrectAnswer = AnswersOfQ15.FirstOrDefault(a => a.ActualAnswer == "Implicit FTP over SSL");
 
                 db.Add(question15);
 
@@ -315,17 +315,17 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Services,
                 };
 
-                var AwnsersOfQ16 = new List<Awnser>()
+                var AnswersOfQ16 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Any-to-any connection"},
-                        new Awnser{ActualAwnser = "Site-to-site virtual private network"},
-                        new Awnser{ActualAwnser = "Point-to-point Ethernet connection"},
-                        new Awnser{ActualAwnser = "CloudExchange colocation"},
+                        new Answer{ActualAnswer = "Any-to-any connection"},
+                        new Answer{ActualAnswer = "Site-to-site virtual private network"},
+                        new Answer{ActualAnswer = "Point-to-point Ethernet connection"},
+                        new Answer{ActualAnswer = "CloudExchange colocation"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ16);
+                db.Answers.AddRange(AnswersOfQ16);
 
-                question16.Awnsers = AwnsersOfQ16;
-                question16.CorrectAwnser = AwnsersOfQ16.FirstOrDefault(a => a.ActualAwnser == "Site-to-site virtual private network");
+                question16.Answers = AnswersOfQ16;
+                question16.CorrectAnswer = AnswersOfQ16.FirstOrDefault(a => a.ActualAnswer == "Site-to-site virtual private network");
 
                 db.Add(question16);
 
@@ -335,17 +335,17 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Services,
                 };
 
-                var AwnsersOfQ17 = new List<Awnser>()
+                var AnswersOfQ17 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Network address translation"},
-                        new Awnser{ActualAwnser = "Multi-chassis link aggregation"},
-                        new Awnser{ActualAwnser = "Dynamic Host Configuration Protocol"},
-                        new Awnser{ActualAwnser = "Virtual network peering"},
+                        new Answer{ActualAnswer = "Network address translation"},
+                        new Answer{ActualAnswer = "Multi-chassis link aggregation"},
+                        new Answer{ActualAnswer = "Dynamic Host Configuration Protocol"},
+                        new Answer{ActualAnswer = "Virtual network peering"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ17);
+                db.Answers.AddRange(AnswersOfQ17);
 
-                question17.Awnsers = AwnsersOfQ17;
-                question17.CorrectAwnser = AwnsersOfQ17.FirstOrDefault(a => a.ActualAwnser == "Virtual network peering");
+                question17.Answers = AnswersOfQ17;
+                question17.CorrectAnswer = AnswersOfQ17.FirstOrDefault(a => a.ActualAnswer == "Virtual network peering");
 
                 db.Add(question17);
 
@@ -355,17 +355,17 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Services,
                 };
 
-                var AwnsersOfQ18 = new List<Awnser>()
+                var AnswersOfQ18 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Redundant connectivity"},
-                        new Awnser{ActualAwnser = "Consistent network throughput"},
-                        new Awnser{ActualAwnser = "Encrypted network communication"},
-                        new Awnser{ActualAwnser = "Access to Microsoft cloud services"},
+                        new Answer{ActualAnswer = "Redundant connectivity"},
+                        new Answer{ActualAnswer = "Consistent network throughput"},
+                        new Answer{ActualAnswer = "Encrypted network communication"},
+                        new Answer{ActualAnswer = "Access to Microsoft cloud services"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ18);
+                db.Answers.AddRange(AnswersOfQ18);
 
-                question18.Awnsers = AwnsersOfQ18;
-                question18.CorrectAwnser = AwnsersOfQ18.FirstOrDefault(a => a.ActualAwnser == "Encrypted network communication");
+                question18.Answers = AnswersOfQ18;
+                question18.CorrectAnswer = AnswersOfQ18.FirstOrDefault(a => a.ActualAnswer == "Encrypted network communication");
 
                 db.Add(question18);
 
@@ -375,17 +375,17 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Services,
                 };
 
-                var AwnsersOfQ19 = new List<Awnser>()
+                var AnswersOfQ19 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Create an Azure Storage container to store the image."},
-                        new Awnser{ActualAwnser = "Create an Azure Storage account."},
-                        new Awnser{ActualAwnser = "Upload the image file and create a container."},
-                        new Awnser{ActualAwnser = "Use a Shared Access Signature (SAS) token to restrict access to the image."},
+                        new Answer{ActualAnswer = "Create an Azure Storage container to store the image."},
+                        new Answer{ActualAnswer = "Create an Azure Storage account."},
+                        new Answer{ActualAnswer = "Upload the image file and create a container."},
+                        new Answer{ActualAnswer = "Use a Shared Access Signature (SAS) token to restrict access to the image."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ19);
+                db.Answers.AddRange(AnswersOfQ19);
 
-                question19.Awnsers = AwnsersOfQ19;
-                question19.CorrectAwnser = AwnsersOfQ19.FirstOrDefault(a => a.ActualAwnser == "Create an Azure Storage account.");
+                question19.Answers = AnswersOfQ19;
+                question19.CorrectAnswer = AnswersOfQ19.FirstOrDefault(a => a.ActualAnswer == "Create an Azure Storage account.");
 
                 db.Add(question19);
 
@@ -395,16 +395,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Services,
                 };
 
-                var AwnsersOfQ20 = new List<Awnser>()
+                var AnswersOfQ20 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Files Storage"},
-                        new Awnser{ActualAwnser = "Azure Disk Storage"},
-                        new Awnser{ActualAwnser = "Azure Blob Storage"},
+                        new Answer{ActualAnswer = "Azure Files Storage"},
+                        new Answer{ActualAnswer = "Azure Disk Storage"},
+                        new Answer{ActualAnswer = "Azure Blob Storage"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ20);
+                db.Answers.AddRange(AnswersOfQ20);
 
-                question20.Awnsers = AwnsersOfQ20;
-                question20.CorrectAwnser = AwnsersOfQ20.FirstOrDefault(a => a.ActualAwnser == "Azure Blob Storage");
+                question20.Answers = AnswersOfQ20;
+                question20.CorrectAnswer = AnswersOfQ20.FirstOrDefault(a => a.ActualAnswer == "Azure Blob Storage");
 
                 db.Add(question20);
 
@@ -414,17 +414,17 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Services,
                 };
 
-                var AwnsersOfQ21 = new List<Awnser>()
+                var AnswersOfQ21 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Cosmos DB"},
-                        new Awnser{ActualAwnser = "Azure SQL Database"},
-                        new Awnser{ActualAwnser = "Azure Databricks"},
-                        new Awnser{ActualAwnser = "Azure Database for PostgreSQL"},
+                        new Answer{ActualAnswer = "Azure Cosmos DB"},
+                        new Answer{ActualAnswer = "Azure SQL Database"},
+                        new Answer{ActualAnswer = "Azure Databricks"},
+                        new Answer{ActualAnswer = "Azure Database for PostgreSQL"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ21);
+                db.Answers.AddRange(AnswersOfQ21);
 
-                question21.Awnsers = AwnsersOfQ21;
-                question21.CorrectAwnser = AwnsersOfQ21.FirstOrDefault(a => a.ActualAwnser == "Azure Cosmos DB");
+                question21.Answers = AnswersOfQ21;
+                question21.CorrectAnswer = AnswersOfQ21.FirstOrDefault(a => a.ActualAnswer == "Azure Cosmos DB");
 
                 db.Add(question21);
 
@@ -434,16 +434,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Services,
                 };
 
-                var AwnsersOfQ22 = new List<Awnser>()
+                var AnswersOfQ22 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Cosmos DB"},
-                        new Awnser{ActualAwnser = "Azure Database for MySQL"},
-                        new Awnser{ActualAwnser = "Azure Database for PostgreSQL"},
+                        new Answer{ActualAnswer = "Azure Cosmos DB"},
+                        new Answer{ActualAnswer = "Azure Database for MySQL"},
+                        new Answer{ActualAnswer = "Azure Database for PostgreSQL"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ22);
+                db.Answers.AddRange(AnswersOfQ22);
 
-                question22.Awnsers = AwnsersOfQ22;
-                question22.CorrectAwnser = AwnsersOfQ22.FirstOrDefault(a => a.ActualAwnser == "Azure Database for MySQL");
+                question22.Answers = AnswersOfQ22;
+                question22.CorrectAnswer = AnswersOfQ22.FirstOrDefault(a => a.ActualAnswer == "Azure Database for MySQL");
 
                 db.Add(question22);
 
@@ -453,17 +453,17 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Services,
                 };
 
-                var AwnsersOfQ23 = new List<Awnser>()
+                var AnswersOfQ23 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Cosmos DB"},
-                        new Awnser{ActualAwnser = "Azure SQL Database"},
-                        new Awnser{ActualAwnser = "Azure Database for PostgreSQL"},
-                        new Awnser{ActualAwnser = "Azure Synapse Analytics"},
+                        new Answer{ActualAnswer = "Azure Cosmos DB"},
+                        new Answer{ActualAnswer = "Azure SQL Database"},
+                        new Answer{ActualAnswer = "Azure Database for PostgreSQL"},
+                        new Answer{ActualAnswer = "Azure Synapse Analytics"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ23);
+                db.Answers.AddRange(AnswersOfQ23);
 
-                question23.Awnsers = AwnsersOfQ23;
-                question23.CorrectAwnser = AwnsersOfQ23.FirstOrDefault(a => a.ActualAwnser == "Azure Synapse Analytics");
+                question23.Answers = AnswersOfQ23;
+                question23.CorrectAnswer = AnswersOfQ23.FirstOrDefault(a => a.ActualAnswer == "Azure Synapse Analytics");
 
                 db.Add(question23);
 
@@ -473,16 +473,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ24 = new List<Awnser>()
+                var AnswersOfQ24 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "IoT Hub"},
-                        new Awnser{ActualAwnser = "IoT Central"},
-                        new Awnser{ActualAwnser = "Azure Sphere"},
+                        new Answer{ActualAnswer = "IoT Hub"},
+                        new Answer{ActualAnswer = "IoT Central"},
+                        new Answer{ActualAnswer = "Azure Sphere"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ24);
+                db.Answers.AddRange(AnswersOfQ24);
 
-                question24.Awnsers = AwnsersOfQ24;
-                question24.CorrectAwnser = AwnsersOfQ24.FirstOrDefault(a => a.ActualAwnser == "Azure Sphere");
+                question24.Answers = AnswersOfQ24;
+                question24.CorrectAnswer = AnswersOfQ24.FirstOrDefault(a => a.ActualAnswer == "Azure Sphere");
 
                 db.Add(question24);
 
@@ -492,16 +492,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ25 = new List<Awnser>()
+                var AnswersOfQ25 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "IoT Hub"},
-                        new Awnser{ActualAwnser = "IoT Central"},
-                        new Awnser{ActualAwnser = "Azure Sphere"},
+                        new Answer{ActualAnswer = "IoT Hub"},
+                        new Answer{ActualAnswer = "IoT Central"},
+                        new Answer{ActualAnswer = "Azure Sphere"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ25);
+                db.Answers.AddRange(AnswersOfQ25);
 
-                question25.Awnsers = AwnsersOfQ25;
-                question25.CorrectAwnser = AwnsersOfQ25.FirstOrDefault(a => a.ActualAwnser == "IoT Central");
+                question25.Answers = AnswersOfQ25;
+                question25.CorrectAnswer = AnswersOfQ25.FirstOrDefault(a => a.ActualAnswer == "IoT Central");
 
                 db.Add(question25);
 
@@ -511,16 +511,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ26 = new List<Awnser>()
+                var AnswersOfQ26 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "IoT Hub"},
-                        new Awnser{ActualAwnser = "IoT Central"},
-                        new Awnser{ActualAwnser = "Azure Sphere"},
+                        new Answer{ActualAnswer = "IoT Hub"},
+                        new Answer{ActualAnswer = "IoT Central"},
+                        new Answer{ActualAnswer = "Azure Sphere"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ26);
+                db.Answers.AddRange(AnswersOfQ26);
 
-                question26.Awnsers = AwnsersOfQ26;
-                question26.CorrectAwnser = AwnsersOfQ26.FirstOrDefault(a => a.ActualAwnser == "IoT Hub");
+                question26.Answers = AnswersOfQ26;
+                question26.CorrectAnswer = AnswersOfQ26.FirstOrDefault(a => a.ActualAnswer == "IoT Hub");
 
                 db.Add(question26);
 
@@ -530,16 +530,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ27 = new List<Awnser>()
+                var AnswersOfQ27 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Machine Learning"},
-                        new Awnser{ActualAwnser = "Azure Bot Service"},
-                        new Awnser{ActualAwnser = "Azure Cognitive Services"},
+                        new Answer{ActualAnswer = "Azure Machine Learning"},
+                        new Answer{ActualAnswer = "Azure Bot Service"},
+                        new Answer{ActualAnswer = "Azure Cognitive Services"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ27);
+                db.Answers.AddRange(AnswersOfQ27);
 
-                question27.Awnsers = AwnsersOfQ27;
-                question27.CorrectAwnser = AwnsersOfQ27.FirstOrDefault(a => a.ActualAwnser == "Azure Machine Learning");
+                question27.Answers = AnswersOfQ27;
+                question27.CorrectAnswer = AnswersOfQ27.FirstOrDefault(a => a.ActualAnswer == "Azure Machine Learning");
 
                 db.Add(question27);
 
@@ -549,16 +549,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ28 = new List<Awnser>()
+                var AnswersOfQ28 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Machine Learning"},
-                        new Awnser{ActualAwnser = "Azure Cognitive Services"},
-                        new Awnser{ActualAwnser = "Azure Bot Service"},
+                        new Answer{ActualAnswer = "Azure Machine Learning"},
+                        new Answer{ActualAnswer = "Azure Cognitive Services"},
+                        new Answer{ActualAnswer = "Azure Bot Service"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ28);
+                db.Answers.AddRange(AnswersOfQ28);
 
-                question28.Awnsers = AwnsersOfQ28;
-                question28.CorrectAwnser = AwnsersOfQ28.FirstOrDefault(a => a.ActualAwnser == "Azure Bot Service");
+                question28.Answers = AnswersOfQ28;
+                question28.CorrectAnswer = AnswersOfQ28.FirstOrDefault(a => a.ActualAnswer == "Azure Bot Service");
 
                 db.Add(question28);
 
@@ -568,16 +568,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ29 = new List<Awnser>()
+                var AnswersOfQ29 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Machine Learning"},
-                        new Awnser{ActualAwnser = "Azure Cognitive Services"},
-                        new Awnser{ActualAwnser = "Azure Bot Service"},
+                        new Answer{ActualAnswer = "Azure Machine Learning"},
+                        new Answer{ActualAnswer = "Azure Cognitive Services"},
+                        new Answer{ActualAnswer = "Azure Bot Service"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ29);
+                db.Answers.AddRange(AnswersOfQ29);
 
-                question29.Awnsers = AwnsersOfQ29;
-                question29.CorrectAwnser = AwnsersOfQ29.FirstOrDefault(a => a.ActualAwnser == "Azure Cognitive Services");
+                question29.Answers = AnswersOfQ29;
+                question29.CorrectAnswer = AnswersOfQ29.FirstOrDefault(a => a.ActualAnswer == "Azure Cognitive Services");
 
                 db.Add(question29);
 
@@ -594,16 +594,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.General_Security_and_Network_security,
                 };
 
-                var AwnsersOfQ30 = new List<Awnser>()
+                var AnswersOfQ30 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Connect your VMs to Azure Sentinel."},
-                        new Awnser{ActualAwnser = "Create an application control rule in Azure Security Center."},
-                        new Awnser{ActualAwnser = "Periodically run a script that lists the running processes on each VM. The IT manager can then shut down any applications that shouldn't be running."},
+                        new Answer{ActualAnswer = "Connect your VMs to Azure Sentinel."},
+                        new Answer{ActualAnswer = "Create an application control rule in Azure Security Center."},
+                        new Answer{ActualAnswer = "Periodically run a script that lists the running processes on each VM. The IT manager can then shut down any applications that shouldn't be running."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ30);
+                db.Answers.AddRange(AnswersOfQ30);
 
-                question30.Awnsers = AwnsersOfQ30;
-                question30.CorrectAwnser = AwnsersOfQ30.FirstOrDefault(a => a.ActualAwnser == "Create an application control rule in Azure Security Center.");
+                question30.Answers = AnswersOfQ30;
+                question30.CorrectAnswer = AnswersOfQ30.FirstOrDefault(a => a.ActualAnswer == "Create an application control rule in Azure Security Center.");
 
                 db.Add(question30);
 
@@ -613,15 +613,15 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ31 = new List<Awnser>()
+                var AnswersOfQ31 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Functions"},
-                        new Awnser{ActualAwnser = "Azure Logic Apps"},
+                        new Answer{ActualAnswer = "Azure Functions"},
+                        new Answer{ActualAnswer = "Azure Logic Apps"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ31);
+                db.Answers.AddRange(AnswersOfQ31);
 
-                question31.Awnsers = AwnsersOfQ31;
-                question31.CorrectAwnser = AwnsersOfQ31.FirstOrDefault(a => a.ActualAwnser == "Azure Functions");
+                question31.Answers = AnswersOfQ31;
+                question31.CorrectAnswer = AnswersOfQ31.FirstOrDefault(a => a.ActualAnswer == "Azure Functions");
 
                 db.Add(question31);
 
@@ -631,15 +631,15 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ32 = new List<Awnser>()
+                var AnswersOfQ32 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Functions"},
-                        new Awnser{ActualAwnser = "Azure Logic Apps"},
+                        new Answer{ActualAnswer = "Azure Functions"},
+                        new Answer{ActualAnswer = "Azure Logic Apps"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ32);
+                db.Answers.AddRange(AnswersOfQ32);
 
-                question32.Awnsers = AwnsersOfQ32;
-                question32.CorrectAwnser = AwnsersOfQ32.FirstOrDefault(a => a.ActualAwnser == "Azure Logic Apps");
+                question32.Answers = AnswersOfQ32;
+                question32.CorrectAnswer = AnswersOfQ32.FirstOrDefault(a => a.ActualAnswer == "Azure Logic Apps");
 
                 db.Add(question32);
 
@@ -649,15 +649,15 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ33 = new List<Awnser>()
+                var AnswersOfQ33 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Functions"},
-                        new Awnser{ActualAwnser = "Azure Logic Apps"},
+                        new Answer{ActualAnswer = "Azure Functions"},
+                        new Answer{ActualAnswer = "Azure Logic Apps"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ33);
+                db.Answers.AddRange(AnswersOfQ33);
 
-                question33.Awnsers = AwnsersOfQ33;
-                question33.CorrectAwnser = AwnsersOfQ33.FirstOrDefault(a => a.ActualAwnser == "Azure Logic Apps");
+                question33.Answers = AnswersOfQ33;
+                question33.CorrectAnswer = AnswersOfQ33.FirstOrDefault(a => a.ActualAnswer == "Azure Logic Apps");
 
                 db.Add(question33);
 
@@ -667,16 +667,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ34 = new List<Awnser>()
+                var AnswersOfQ34 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Pipelines"},
-                        new Awnser{ActualAwnser = "GitHub Actions"},
-                        new Awnser{ActualAwnser = "Azure Boards"},
+                        new Answer{ActualAnswer = "Azure Pipelines"},
+                        new Answer{ActualAnswer = "GitHub Actions"},
+                        new Answer{ActualAnswer = "Azure Boards"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ34);
+                db.Answers.AddRange(AnswersOfQ34);
 
-                question34.Awnsers = AwnsersOfQ34;
-                question34.CorrectAwnser = AwnsersOfQ34.FirstOrDefault(a => a.ActualAwnser == "Azure Boards");
+                question34.Answers = AnswersOfQ34;
+                question34.CorrectAnswer = AnswersOfQ34.FirstOrDefault(a => a.ActualAnswer == "Azure Boards");
 
                 db.Add(question34);
 
@@ -686,16 +686,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ35 = new List<Awnser>()
+                var AnswersOfQ35 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure DevTest Labs"},
-                        new Awnser{ActualAwnser = "Azure Test Labs"},
-                        new Awnser{ActualAwnser = "Azure Repos"},
+                        new Answer{ActualAnswer = "Azure DevTest Labs"},
+                        new Answer{ActualAnswer = "Azure Test Labs"},
+                        new Answer{ActualAnswer = "Azure Repos"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ35);
+                db.Answers.AddRange(AnswersOfQ35);
 
-                question35.Awnsers = AwnsersOfQ35;
-                question35.CorrectAwnser = AwnsersOfQ35.FirstOrDefault(a => a.ActualAwnser == "Azure DevTest Labs");
+                question35.Answers = AnswersOfQ35;
+                question35.CorrectAnswer = AnswersOfQ35.FirstOrDefault(a => a.ActualAnswer == "Azure DevTest Labs");
 
                 db.Add(question35);
 
@@ -705,16 +705,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ36 = new List<Awnser>()
+                var AnswersOfQ36 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Boards"},
-                        new Awnser{ActualAwnser = "GitHub"},
-                        new Awnser{ActualAwnser = "Azure Pipelines"},
+                        new Answer{ActualAnswer = "Azure Boards"},
+                        new Answer{ActualAnswer = "GitHub"},
+                        new Answer{ActualAnswer = "Azure Pipelines"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ36);
+                db.Answers.AddRange(AnswersOfQ36);
 
-                question36.Awnsers = AwnsersOfQ36;
-                question36.CorrectAwnser = AwnsersOfQ36.FirstOrDefault(a => a.ActualAwnser == "Azure Pipelines");
+                question36.Answers = AnswersOfQ36;
+                question36.CorrectAnswer = AnswersOfQ36.FirstOrDefault(a => a.ActualAnswer == "Azure Pipelines");
 
                 db.Add(question36);
 
@@ -724,17 +724,17 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ37 = new List<Awnser>()
+                var AnswersOfQ37 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "ARM templates"},
-                        new Awnser{ActualAwnser = "Azure PowerShell"},
-                        new Awnser{ActualAwnser = "The Azure portal"},
-                        new Awnser{ActualAwnser = "The Azure CLI"},
+                        new Answer{ActualAnswer = "ARM templates"},
+                        new Answer{ActualAnswer = "Azure PowerShell"},
+                        new Answer{ActualAnswer = "The Azure portal"},
+                        new Answer{ActualAnswer = "The Azure CLI"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ37);
+                db.Answers.AddRange(AnswersOfQ37);
 
-                question37.Awnsers = AwnsersOfQ37;
-                question37.CorrectAwnser = AwnsersOfQ37.FirstOrDefault(a => a.ActualAwnser == "The Azure CLI");
+                question37.Answers = AnswersOfQ37;
+                question37.CorrectAnswer = AnswersOfQ37.FirstOrDefault(a => a.ActualAnswer == "The Azure CLI");
 
                 db.Add(question37);
 
@@ -744,17 +744,17 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ38 = new List<Awnser>()
+                var AnswersOfQ38 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "ARM templates"},
-                        new Awnser{ActualAwnser = "Azure PowerShell"},
-                        new Awnser{ActualAwnser = "The Azure portal"},
-                        new Awnser{ActualAwnser = "The Azure CLI"},
+                        new Answer{ActualAnswer = "ARM templates"},
+                        new Answer{ActualAnswer = "Azure PowerShell"},
+                        new Answer{ActualAnswer = "The Azure portal"},
+                        new Answer{ActualAnswer = "The Azure CLI"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ38);
+                db.Answers.AddRange(AnswersOfQ38);
 
-                question38.Awnsers = AwnsersOfQ38;
-                question38.CorrectAwnser = AwnsersOfQ38.FirstOrDefault(a => a.ActualAwnser == "The Azure portal");
+                question38.Answers = AnswersOfQ38;
+                question38.CorrectAnswer = AnswersOfQ38.FirstOrDefault(a => a.ActualAnswer == "The Azure portal");
 
                 db.Add(question38);
 
@@ -764,17 +764,17 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ39 = new List<Awnser>()
+                var AnswersOfQ39 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "ARM templates"},
-                        new Awnser{ActualAwnser = "Azure PowerShell"},
-                        new Awnser{ActualAwnser = "The Azure portal"},
-                        new Awnser{ActualAwnser = "The Azure CLI"},
+                        new Answer{ActualAnswer = "ARM templates"},
+                        new Answer{ActualAnswer = "Azure PowerShell"},
+                        new Answer{ActualAnswer = "The Azure portal"},
+                        new Answer{ActualAnswer = "The Azure CLI"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ39);
+                db.Answers.AddRange(AnswersOfQ39);
 
-                question39.Awnsers = AwnsersOfQ39;
-                question39.CorrectAwnser = AwnsersOfQ39.FirstOrDefault(a => a.ActualAwnser == "ARM templates");
+                question39.Answers = AnswersOfQ39;
+                question39.CorrectAnswer = AnswersOfQ39.FirstOrDefault(a => a.ActualAnswer == "ARM templates");
 
                 db.Add(question39);
 
@@ -784,16 +784,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ40 = new List<Awnser>()
+                var AnswersOfQ40 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Advisor"},
-                        new Awnser{ActualAwnser = "Azure Monitor"},
-                        new Awnser{ActualAwnser = "Azure Service Health"},
+                        new Answer{ActualAnswer = "Azure Advisor"},
+                        new Answer{ActualAnswer = "Azure Monitor"},
+                        new Answer{ActualAnswer = "Azure Service Health"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ40);
+                db.Answers.AddRange(AnswersOfQ40);
 
-                question40.Awnsers = AwnsersOfQ40;
-                question40.CorrectAwnser = AwnsersOfQ40.FirstOrDefault(a => a.ActualAwnser == "Azure Advisor");
+                question40.Answers = AnswersOfQ40;
+                question40.CorrectAnswer = AnswersOfQ40.FirstOrDefault(a => a.ActualAnswer == "Azure Advisor");
 
                 db.Add(question40);
 
@@ -803,16 +803,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ41 = new List<Awnser>()
+                var AnswersOfQ41 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Advisor"},
-                        new Awnser{ActualAwnser = "Azure Monitor"},
-                        new Awnser{ActualAwnser = "Azure Service Health"},
+                        new Answer{ActualAnswer = "Azure Advisor"},
+                        new Answer{ActualAnswer = "Azure Monitor"},
+                        new Answer{ActualAnswer = "Azure Service Health"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ41);
+                db.Answers.AddRange(AnswersOfQ41);
 
-                question41.Awnsers = AwnsersOfQ41;
-                question41.CorrectAwnser = AwnsersOfQ41.FirstOrDefault(a => a.ActualAwnser == "Azure Service Health");
+                question41.Answers = AnswersOfQ41;
+                question41.CorrectAnswer = AnswersOfQ41.FirstOrDefault(a => a.ActualAnswer == "Azure Service Health");
 
                 db.Add(question41);
 
@@ -822,16 +822,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.Azure_Core_Solutions_and_Management_tools,
                 };
 
-                var AwnsersOfQ42 = new List<Awnser>()
+                var AnswersOfQ42 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Advisor"},
-                        new Awnser{ActualAwnser = "Azure Monitor"},
-                        new Awnser{ActualAwnser = "Azure Service Health"},
+                        new Answer{ActualAnswer = "Azure Advisor"},
+                        new Answer{ActualAnswer = "Azure Monitor"},
+                        new Answer{ActualAnswer = "Azure Service Health"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ42);
+                db.Answers.AddRange(AnswersOfQ42);
 
-                question42.Awnsers = AwnsersOfQ42;
-                question42.CorrectAwnser = AwnsersOfQ42.FirstOrDefault(a => a.ActualAwnser == "Azure Monitor");
+                question42.Answers = AnswersOfQ42;
+                question42.CorrectAnswer = AnswersOfQ42.FirstOrDefault(a => a.ActualAnswer == "Azure Monitor");
 
                 db.Add(question42);
 
@@ -848,16 +848,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.General_Security_and_Network_security,
                 };
 
-                var AwnsersOfQ43 = new List<Awnser>()
+                var AnswersOfQ43 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Collect security data in Azure Sentinel."},
-                        new Awnser{ActualAwnser = "Build a custom tool that collects security data, and displays a report through a web application."},
-                        new Awnser{ActualAwnser = "Look through each security log daily and email a summary to your team."},
+                        new Answer{ActualAnswer = "Collect security data in Azure Sentinel."},
+                        new Answer{ActualAnswer = "Build a custom tool that collects security data, and displays a report through a web application."},
+                        new Answer{ActualAnswer = "Look through each security log daily and email a summary to your team."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ43);
+                db.Answers.AddRange(AnswersOfQ43);
 
-                question43.Awnsers = AwnsersOfQ43;
-                question43.CorrectAwnser = AwnsersOfQ43.FirstOrDefault(a => a.ActualAwnser == "Collect security data in Azure Sentinel.");
+                question43.Answers = AnswersOfQ43;
+                question43.CorrectAnswer = AnswersOfQ43.FirstOrDefault(a => a.ActualAnswer == "Collect security data in Azure Sentinel.");
 
                 db.Add(question43);
 
@@ -874,16 +874,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.General_Security_and_Network_security,
                 };
 
-                var AwnsersOfQ44 = new List<Awnser>()
+                var AnswersOfQ44 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Place the certificates on a network share."},
-                        new Awnser{ActualAwnser = "Store them on a VM that's protected by a password."},
-                        new Awnser{ActualAwnser = "Store the certificates in Azure Key Vault."},
+                        new Answer{ActualAnswer = "Place the certificates on a network share."},
+                        new Answer{ActualAnswer = "Store them on a VM that's protected by a password."},
+                        new Answer{ActualAnswer = "Store the certificates in Azure Key Vault."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ44);
+                db.Answers.AddRange(AnswersOfQ44);
 
-                question44.Awnsers = AwnsersOfQ44;
-                question44.CorrectAwnser = AwnsersOfQ44.FirstOrDefault(a => a.ActualAwnser == "Store the certificates in Azure Key Vault.");
+                question44.Answers = AnswersOfQ44;
+                question44.CorrectAnswer = AnswersOfQ44.FirstOrDefault(a => a.ActualAnswer == "Store the certificates in Azure Key Vault.");
 
                 db.Add(question44);
 
@@ -900,16 +900,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                     Chapter = ChapterEnum.General_Security_and_Network_security,
                 };
 
-                var AwnsersOfQ45 = new List<Awnser>()
+                var AnswersOfQ45 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Configure the network to ensure that VMs on the same physical host are isolated."},
-                        new Awnser{ActualAwnser = "This is not possible. These workloads need to be run on-premises."},
-                        new Awnser{ActualAwnser = "Run the VMs on Azure Dedicated Host."},
+                        new Answer{ActualAnswer = "Configure the network to ensure that VMs on the same physical host are isolated."},
+                        new Answer{ActualAnswer = "This is not possible. These workloads need to be run on-premises."},
+                        new Answer{ActualAnswer = "Run the VMs on Azure Dedicated Host."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ45);
+                db.Answers.AddRange(AnswersOfQ45);
 
-                question45.Awnsers = AwnsersOfQ45;
-                question45.CorrectAwnser = AwnsersOfQ45.FirstOrDefault(a => a.ActualAwnser == "Store the certificates in Azure Key Vault.");
+                question45.Answers = AnswersOfQ45;
+                question45.CorrectAnswer = AnswersOfQ45.FirstOrDefault(a => a.ActualAnswer == "Store the certificates in Azure Key Vault.");
 
                 db.Add(question45);
 
@@ -926,16 +926,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                      "\nWhich Azure service can help Tailwind Traders protect its App Service instance from this kind of attack?",
                     Chapter = ChapterEnum.General_Security_and_Network_security,
                 };
-                var AwnsersOfQ46 = new List<Awnser>()
+                var AnswersOfQ46 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Azure Firewall"},
-                        new Awnser{ActualAwnser = "Network security groups"},
-                        new Awnser{ActualAwnser = "Azure DDoS Protection"},
+                        new Answer{ActualAnswer = "Azure Firewall"},
+                        new Answer{ActualAnswer = "Network security groups"},
+                        new Answer{ActualAnswer = "Azure DDoS Protection"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ46);
+                db.Answers.AddRange(AnswersOfQ46);
 
-                question46.Awnsers = AwnsersOfQ46;
-                question46.CorrectAwnser = AwnsersOfQ46.FirstOrDefault(a => a.ActualAwnser == "Azure DDoS Protection");
+                question46.Answers = AnswersOfQ46;
+                question46.CorrectAnswer = AnswersOfQ46.FirstOrDefault(a => a.ActualAnswer == "Azure DDoS Protection");
 
                 db.Add(question46);
 
@@ -951,16 +951,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                      "\n\nWhat's the best way for Tailwind Traders to limit all outbound traffic from VMs to known hosts?",
                     Chapter = ChapterEnum.General_Security_and_Network_security,
                 };
-                var AwnsersOfQ47 = new List<Awnser>()
+                var AnswersOfQ47 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Configure Azure DDoS Protection to limit network access to trusted ports and hosts."},
-                        new Awnser{ActualAwnser = "Create application rules in Azure Firewall."},
-                        new Awnser{ActualAwnser = "Ensure that all running applications communicate with only trusted ports and hosts."},
+                        new Answer{ActualAnswer = "Configure Azure DDoS Protection to limit network access to trusted ports and hosts."},
+                        new Answer{ActualAnswer = "Create application rules in Azure Firewall."},
+                        new Answer{ActualAnswer = "Ensure that all running applications communicate with only trusted ports and hosts."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ47);
+                db.Answers.AddRange(AnswersOfQ47);
 
-                question47.Awnsers = AwnsersOfQ47;
-                question47.CorrectAwnser = AwnsersOfQ47.FirstOrDefault(a => a.ActualAwnser == "Create application rules in Azure Firewall.");
+                question47.Answers = AnswersOfQ47;
+                question47.CorrectAnswer = AnswersOfQ47.FirstOrDefault(a => a.ActualAnswer == "Create application rules in Azure Firewall.");
 
                 db.Add(question47);
 
@@ -976,16 +976,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                      "\n\nHow can Tailwind Traders most easily implement a deny by default policy so that VMs can't connect to each other?",
                     Chapter = ChapterEnum.General_Security_and_Network_security,
                 };
-                var AwnsersOfQ48 = new List<Awnser>()
+                var AnswersOfQ48 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Allocate each VM on its own virtual network."},
-                        new Awnser{ActualAwnser = "Create a network security group rule that prevents access from another VM on the same network."},
-                        new Awnser{ActualAwnser = "Configure Azure DDoS Protection to limit network access within the virtual network."},
+                        new Answer{ActualAnswer = "Allocate each VM on its own virtual network."},
+                        new Answer{ActualAnswer = "Create a network security group rule that prevents access from another VM on the same network."},
+                        new Answer{ActualAnswer = "Configure Azure DDoS Protection to limit network access within the virtual network."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ48);
+                db.Answers.AddRange(AnswersOfQ48);
 
-                question48.Awnsers = AwnsersOfQ48;
-                question48.CorrectAwnser = AwnsersOfQ48.FirstOrDefault(a => a.ActualAwnser == "Create a network security group rule that prevents access from another VM on the same network.");
+                question48.Answers = AnswersOfQ48;
+                question48.CorrectAnswer = AnswersOfQ48.FirstOrDefault(a => a.ActualAnswer == "Create a network security group rule that prevents access from another VM on the same network.");
 
                 db.Add(question48);
 
@@ -1001,16 +1001,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                     "\n\nHow can the IT department ensure that employees at the company's retail stores can access company applications only from approved tablet devices?",
                     Chapter = ChapterEnum.Identity_Governance_Privacy_and_Compliance_Features,
                 };
-                var AwnsersOfQ49 = new List<Awnser>()
+                var AnswersOfQ49 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "SSO"},
-                        new Awnser{ActualAwnser = "Conditional Access"},
-                        new Awnser{ActualAwnser = "Multifactor authentication"},
+                        new Answer{ActualAnswer = "SSO"},
+                        new Answer{ActualAnswer = "Conditional Access"},
+                        new Answer{ActualAnswer = "Multifactor authentication"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ49);
+                db.Answers.AddRange(AnswersOfQ49);
 
-                question49.Awnsers = AwnsersOfQ49;
-                question49.CorrectAwnser = AwnsersOfQ49.FirstOrDefault(a => a.ActualAwnser == "Conditional Access");
+                question49.Answers = AnswersOfQ49;
+                question49.CorrectAnswer = AnswersOfQ49.FirstOrDefault(a => a.ActualAnswer == "Conditional Access");
 
                 db.Add(question49);
 
@@ -1026,16 +1026,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                     "\n\nHow can the IT department use biometric properties, such as facial recognition, to enable delivery drivers to prove their identities?",
                     Chapter = ChapterEnum.Identity_Governance_Privacy_and_Compliance_Features,
                 };
-                var AwnsersOfQ50 = new List<Awnser>()
+                var AnswersOfQ50 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "SSO"},
-                        new Awnser{ActualAwnser = "Conditional Access"},
-                        new Awnser{ActualAwnser = "Multifactor authentication"},
+                        new Answer{ActualAnswer = "SSO"},
+                        new Answer{ActualAnswer = "Conditional Access"},
+                        new Answer{ActualAnswer = "Multifactor authentication"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ50);
+                db.Answers.AddRange(AnswersOfQ50);
 
-                question50.Awnsers = AwnsersOfQ50;
-                question50.CorrectAwnser = AwnsersOfQ50.FirstOrDefault(a => a.ActualAwnser == "Multifactor authentication");
+                question50.Answers = AnswersOfQ50;
+                question50.CorrectAnswer = AnswersOfQ50.FirstOrDefault(a => a.ActualAnswer == "Multifactor authentication");
 
                 db.Add(question50);
 
@@ -1051,16 +1051,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                     "\n\nHow can the IT department reduce the number of times users must authenticate to access multiple applications?",
                     Chapter = ChapterEnum.Identity_Governance_Privacy_and_Compliance_Features,
                 };
-                var AwnsersOfQ51 = new List<Awnser>()
+                var AnswersOfQ51 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "SSO"},
-                        new Awnser{ActualAwnser = "Conditional Access"},
-                        new Awnser{ActualAwnser = "Multifactor authentication"},
+                        new Answer{ActualAnswer = "SSO"},
+                        new Answer{ActualAnswer = "Conditional Access"},
+                        new Answer{ActualAnswer = "Multifactor authentication"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ51);
+                db.Answers.AddRange(AnswersOfQ51);
 
-                question51.Awnsers = AwnsersOfQ51;
-                question51.CorrectAwnser = AwnsersOfQ51.FirstOrDefault(a => a.ActualAwnser == "SSO");
+                question51.Answers = AnswersOfQ51;
+                question51.CorrectAnswer = AnswersOfQ51.FirstOrDefault(a => a.ActualAnswer == "SSO");
 
                 db.Add(question51);
 
@@ -1074,16 +1074,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                     "\n\nHow can Tailwind Traders allow some users to control the virtual machines in each environment but prevent them from modifying networking and other resources in the same resource group or Azure subscription?",
                     Chapter = ChapterEnum.Identity_Governance_Privacy_and_Compliance_Features,
                 };
-                var AwnsersOfQ52 = new List<Awnser>()
+                var AnswersOfQ52 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Create a role assignment through Azure role-based access control (Azure RBAC)."},
-                        new Awnser{ActualAwnser = "Create a policy in Azure Policy that audits resource usage."},
-                        new Awnser{ActualAwnser = "Split the environment into separate resource groups."},
+                        new Answer{ActualAnswer = "Create a role assignment through Azure role-based access control (Azure RBAC)."},
+                        new Answer{ActualAnswer = "Create a policy in Azure Policy that audits resource usage."},
+                        new Answer{ActualAnswer = "Split the environment into separate resource groups."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ52);
+                db.Answers.AddRange(AnswersOfQ52);
 
-                question52.Awnsers = AwnsersOfQ52;
-                question52.CorrectAwnser = AwnsersOfQ52.FirstOrDefault(a => a.ActualAwnser == "Create a role assignment through Azure role-based access control (Azure RBAC).");
+                question52.Answers = AnswersOfQ52;
+                question52.CorrectAnswer = AnswersOfQ52.FirstOrDefault(a => a.ActualAnswer == "Create a role assignment through Azure role-based access control (Azure RBAC).");
 
                 db.Add(question52);
 
@@ -1097,16 +1097,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                     "\n\nWhich is the best way for Tailwind Traders to ensure that the team deploys only cost-effective virtual machine SKU sizes?",
                     Chapter = ChapterEnum.Identity_Governance_Privacy_and_Compliance_Features,
                 };
-                var AwnsersOfQ53 = new List<Awnser>()
+                var AnswersOfQ53 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Create a policy in Azure Policy that specifies the allowed SKU sizes."},
-                        new Awnser{ActualAwnser = "Periodically inspect the deployment manually to see which SKU sizes are used."},
-                        new Awnser{ActualAwnser = "Create an Azure RBAC role that defines the allowed virtual machine SKU sizes."},
+                        new Answer{ActualAnswer = "Create a policy in Azure Policy that specifies the allowed SKU sizes."},
+                        new Answer{ActualAnswer = "Periodically inspect the deployment manually to see which SKU sizes are used."},
+                        new Answer{ActualAnswer = "Create an Azure RBAC role that defines the allowed virtual machine SKU sizes."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ53);
+                db.Answers.AddRange(AnswersOfQ53);
 
-                question53.Awnsers = AwnsersOfQ53;
-                question53.CorrectAwnser = AwnsersOfQ53.FirstOrDefault(a => a.ActualAwnser == "Create a policy in Azure Policy that specifies the allowed SKU sizes.");
+                question53.Answers = AnswersOfQ53;
+                question53.CorrectAnswer = AnswersOfQ53.FirstOrDefault(a => a.ActualAnswer == "Create a policy in Azure Policy that specifies the allowed SKU sizes.");
 
                 db.Add(question53);
 
@@ -1120,16 +1120,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                     "\n\nWhich is likely the best way for Tailwind Traders to identify which billing department each Azure resource belongs to?",
                     Chapter = ChapterEnum.Identity_Governance_Privacy_and_Compliance_Features,
                 };
-                var AwnsersOfQ54 = new List<Awnser>()
+                var AnswersOfQ54 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Track resource usage in a spreadsheet."},
-                        new Awnser{ActualAwnser = "Split the deployment into separate Azure subscriptions, where each subscription belongs to its own billing department."},
-                        new Awnser{ActualAwnser = "Apply a tag to each resource that includes the associated billing department."},
+                        new Answer{ActualAnswer = "Track resource usage in a spreadsheet."},
+                        new Answer{ActualAnswer = "Split the deployment into separate Azure subscriptions, where each subscription belongs to its own billing department."},
+                        new Answer{ActualAnswer = "Apply a tag to each resource that includes the associated billing department."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ54);
+                db.Answers.AddRange(AnswersOfQ54);
 
-                question54.Awnsers = AwnsersOfQ54;
-                question54.CorrectAwnser = AwnsersOfQ54.FirstOrDefault(a => a.ActualAwnser == "Apply a tag to each resource that includes the associated billing department.");
+                question54.Answers = AnswersOfQ54;
+                question54.CorrectAnswer = AnswersOfQ54.FirstOrDefault(a => a.ActualAnswer == "Apply a tag to each resource that includes the associated billing department.");
 
                 db.Add(question54);
 
@@ -1141,16 +1141,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                     "\n\nWhere can the team access details about the personal data Microsoft processes and how the company processes it, including for Cortana?",
                     Chapter = ChapterEnum.Identity_Governance_Privacy_and_Compliance_Features,
                 };
-                var AwnsersOfQ55 = new List<Awnser>()
+                var AnswersOfQ55 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Microsoft Privacy Statement"},
-                        new Awnser{ActualAwnser = "The Azure compliance documentation"},
-                        new Awnser{ActualAwnser = "Microsoft compliance offerings"},
+                        new Answer{ActualAnswer = "Microsoft Privacy Statement"},
+                        new Answer{ActualAnswer = "The Azure compliance documentation"},
+                        new Answer{ActualAnswer = "Microsoft compliance offerings"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ55);
+                db.Answers.AddRange(AnswersOfQ55);
 
-                question55.Awnsers = AwnsersOfQ55;
-                question55.CorrectAwnser = AwnsersOfQ55.FirstOrDefault(a => a.ActualAwnser == "Microsoft Privacy Statement");
+                question55.Answers = AnswersOfQ55;
+                question55.CorrectAnswer = AnswersOfQ55.FirstOrDefault(a => a.ActualAnswer == "Microsoft Privacy Statement");
 
                 db.Add(question55);
 
@@ -1162,16 +1162,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                    "\n\nWhere can the legal team access information around how the Microsoft cloud helps them secure sensitive data and comply with applicable laws and regulations?",
                     Chapter = ChapterEnum.Identity_Governance_Privacy_and_Compliance_Features,
                 };
-                var AwnsersOfQ56 = new List<Awnser>()
+                var AnswersOfQ56 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Microsoft Privacy Statement"},
-                        new Awnser{ActualAwnser = "Trust Center"},
-                        new Awnser{ActualAwnser = "Online Services Terms"},
+                        new Answer{ActualAnswer = "Microsoft Privacy Statement"},
+                        new Answer{ActualAnswer = "Trust Center"},
+                        new Answer{ActualAnswer = "Online Services Terms"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ56);
+                db.Answers.AddRange(AnswersOfQ56);
 
-                question56.Awnsers = AwnsersOfQ56;
-                question56.CorrectAwnser = AwnsersOfQ56.FirstOrDefault(a => a.ActualAwnser == "Trust Center");
+                question56.Answers = AnswersOfQ56;
+                question56.CorrectAnswer = AnswersOfQ56.FirstOrDefault(a => a.ActualAnswer == "Trust Center");
 
                 db.Add(question56);
 
@@ -1183,16 +1183,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                    "\n\nWhere can the IT department find reference blueprints that it can apply directly to its Azure subscriptions?",
                     Chapter = ChapterEnum.Identity_Governance_Privacy_and_Compliance_Features,
                 };
-                var AwnsersOfQ57 = new List<Awnser>()
+                var AnswersOfQ57 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Online Services Terms"},
-                        new Awnser{ActualAwnser = "Azure compliance documentation"},
-                        new Awnser{ActualAwnser = "Microsoft Privacy Statement"},
+                        new Answer{ActualAnswer = "Online Services Terms"},
+                        new Answer{ActualAnswer = "Azure compliance documentation"},
+                        new Answer{ActualAnswer = "Microsoft Privacy Statement"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ57);
+                db.Answers.AddRange(AnswersOfQ57);
 
-                question57.Awnsers = AwnsersOfQ57;
-                question57.CorrectAwnser = AwnsersOfQ57.FirstOrDefault(a => a.ActualAwnser == "Azure compliance documentation");
+                question57.Answers = AnswersOfQ57;
+                question57.CorrectAnswer = AnswersOfQ57.FirstOrDefault(a => a.ActualAnswer == "Azure compliance documentation");
 
                 db.Add(question57);
 
@@ -1210,16 +1210,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                    "\n\nWhich is the best first step the team should take to compare the cost of running these environments on Azure versus in their datacenter?",
                     Chapter = ChapterEnum.Azure_Cost_Management_and_service_Level_Agreements,
                 };
-                var AwnsersOfQ58 = new List<Awnser>()
+                var AnswersOfQ58 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "They're just test environments. Spin them up and check the bill at the end of the month."},
-                        new Awnser{ActualAwnser = "Assume that running in the cloud costs about the same as running in the datacenter."},
-                        new Awnser{ActualAwnser = "Run the Total Cost of Ownership Calculator."},
+                        new Answer{ActualAnswer = "They're just test environments. Spin them up and check the bill at the end of the month."},
+                        new Answer{ActualAnswer = "Assume that running in the cloud costs about the same as running in the datacenter."},
+                        new Answer{ActualAnswer = "Run the Total Cost of Ownership Calculator."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ58);
+                db.Answers.AddRange(AnswersOfQ58);
 
-                question58.Awnsers = AwnsersOfQ58;
-                question58.CorrectAwnser = AwnsersOfQ58.FirstOrDefault(a => a.ActualAwnser == "Run the Total Cost of Ownership Calculator.");
+                question58.Answers = AnswersOfQ58;
+                question58.CorrectAnswer = AnswersOfQ58.FirstOrDefault(a => a.ActualAnswer == "Run the Total Cost of Ownership Calculator.");
 
                 db.Add(question58);
 
@@ -1237,16 +1237,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                    "\n\nWhat's the best way to ensure that the development team doesn't provision too many virtual machines at the same time?",
                     Chapter = ChapterEnum.Azure_Cost_Management_and_service_Level_Agreements,
                 };
-                var AwnsersOfQ59 = new List<Awnser>()
+                var AnswersOfQ59 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Do nothing. Let the development team use what they need."},
-                        new Awnser{ActualAwnser = "Apply spending limits to the development team's Azure subscription."},
-                        new Awnser{ActualAwnser = "Verbally give the development lead a budget and hold them accountable for overages."},
+                        new Answer{ActualAnswer = "Do nothing. Let the development team use what they need."},
+                        new Answer{ActualAnswer = "Apply spending limits to the development team's Azure subscription."},
+                        new Answer{ActualAnswer = "Verbally give the development lead a budget and hold them accountable for overages."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ59);
+                db.Answers.AddRange(AnswersOfQ59);
 
-                question59.Awnsers = AwnsersOfQ59;
-                question59.CorrectAwnser = AwnsersOfQ59.FirstOrDefault(a => a.ActualAwnser == "Apply spending limits to the development team's Azure subscription.");
+                question59.Answers = AnswersOfQ59;
+                question59.CorrectAnswer = AnswersOfQ59.FirstOrDefault(a => a.ActualAnswer == "Apply spending limits to the development team's Azure subscription.");
 
                 db.Add(question59);
 
@@ -1264,16 +1264,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                    "\n\nWhich is the most efficient way for the testing team to save costs on virtual machines on weekends, when testers are not at work?",
                     Chapter = ChapterEnum.Azure_Cost_Management_and_service_Level_Agreements,
                 };
-                var AwnsersOfQ60 = new List<Awnser>()
+                var AnswersOfQ60 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Delete the virtual machines before the weekend and create a new set the following week."},
-                        new Awnser{ActualAwnser = "Deallocate virtual machines when they're not in use."},
-                        new Awnser{ActualAwnser = "Just let everything run. Azure bills you only for the CPU time that you use."},
+                        new Answer{ActualAnswer = "Delete the virtual machines before the weekend and create a new set the following week."},
+                        new Answer{ActualAnswer = "Deallocate virtual machines when they're not in use."},
+                        new Answer{ActualAnswer = "Just let everything run. Azure bills you only for the CPU time that you use."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ60);
+                db.Answers.AddRange(AnswersOfQ60);
 
-                question60.Awnsers = AwnsersOfQ60;
-                question60.CorrectAwnser = AwnsersOfQ60.FirstOrDefault(a => a.ActualAwnser == "Deallocate virtual machines when they're not in use.");
+                question60.Answers = AnswersOfQ60;
+                question60.CorrectAnswer = AnswersOfQ60.FirstOrDefault(a => a.ActualAnswer == "Deallocate virtual machines when they're not in use.");
 
                 db.Add(question60);
 
@@ -1291,16 +1291,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                   "\n\nResources in the Dev and Test environments are each paid for by different departments. What's the best way to categorize costs by department?",
                     Chapter = ChapterEnum.Azure_Cost_Management_and_service_Level_Agreements,
                 };
-                var AwnsersOfQ61 = new List<Awnser>()
+                var AnswersOfQ61 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Apply a tag to each virtual machine that identifies the appropriate billing department."},
-                        new Awnser{ActualAwnser = "Split the cost evenly between departments."},
-                        new Awnser{ActualAwnser = "Keep a spreadsheet that lists each team's resources."},
+                        new Answer{ActualAnswer = "Apply a tag to each virtual machine that identifies the appropriate billing department."},
+                        new Answer{ActualAnswer = "Split the cost evenly between departments."},
+                        new Answer{ActualAnswer = "Keep a spreadsheet that lists each team's resources."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ61);
+                db.Answers.AddRange(AnswersOfQ61);
 
-                question61.Awnsers = AwnsersOfQ61;
-                question61.CorrectAwnser = AwnsersOfQ61.FirstOrDefault(a => a.ActualAwnser == "Apply a tag to each virtual machine that identifies the appropriate billing department.");
+                question61.Answers = AnswersOfQ61;
+                question61.CorrectAnswer = AnswersOfQ61.FirstOrDefault(a => a.ActualAnswer == "Apply a tag to each virtual machine that identifies the appropriate billing department.");
 
                 db.Add(question61);
 
@@ -1321,16 +1321,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                   "\n\nWhat's the SLA for Azure Maps in terms of guaranteed uptime?",
                     Chapter = ChapterEnum.Azure_Cost_Management_and_service_Level_Agreements,
                 };
-                var AwnsersOfQ62 = new List<Awnser>()
+                var AnswersOfQ62 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "99 percent"},
-                        new Awnser{ActualAwnser = "99.9 percent"},
-                        new Awnser{ActualAwnser = "99.99 percent"},
+                        new Answer{ActualAnswer = "99 percent"},
+                        new Answer{ActualAnswer = "99.9 percent"},
+                        new Answer{ActualAnswer = "99.99 percent"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ62);
+                db.Answers.AddRange(AnswersOfQ62);
 
-                question62.Awnsers = AwnsersOfQ62;
-                question62.CorrectAwnser = AwnsersOfQ62.FirstOrDefault(a => a.ActualAwnser == "99.9 percent");
+                question62.Answers = AnswersOfQ62;
+                question62.CorrectAnswer = AnswersOfQ62.FirstOrDefault(a => a.ActualAnswer == "99.9 percent");
 
                 db.Add(question62);
 
@@ -1351,16 +1351,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                   "\n\nWhat's the new composite SLA? Remember, the new SLA includes a third virtual machine and Azure Maps.",
                     Chapter = ChapterEnum.Azure_Cost_Management_and_service_Level_Agreements,
                 };
-                var AwnsersOfQ63 = new List<Awnser>()
+                var AnswersOfQ63 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "99.58 percent"},
-                        new Awnser{ActualAwnser = "99.78 percent"},
-                        new Awnser{ActualAwnser = "99.99 percent"},
+                        new Answer{ActualAnswer = "99.58 percent"},
+                        new Answer{ActualAnswer = "99.78 percent"},
+                        new Answer{ActualAnswer = "99.99 percent"},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ63);
+                db.Answers.AddRange(AnswersOfQ63);
 
-                question63.Awnsers = AwnsersOfQ63;
-                question63.CorrectAwnser = AwnsersOfQ63.FirstOrDefault(a => a.ActualAwnser == "99.58 percent");
+                question63.Answers = AnswersOfQ63;
+                question63.CorrectAnswer = AnswersOfQ63.FirstOrDefault(a => a.ActualAnswer == "99.58 percent");
 
                 db.Add(question63);
 
@@ -1380,16 +1380,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                   "\n\nAdding a third virtual machine reduces the composite SLA. How can Tailwind Traders offset this reduction?",
                     Chapter = ChapterEnum.Azure_Cost_Management_and_service_Level_Agreements,
                 };
-                var AwnsersOfQ64 = new List<Awnser>()
+                var AnswersOfQ64 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "Increase the size of each virtual machine."},
-                        new Awnser{ActualAwnser = "Deploy extra instances of the same virtual machines across the different availability zones in the same Azure region."},
-                        new Awnser{ActualAwnser = "Do nothing. Using Azure Load Balancer increases the SLA for virtual machines."},
+                        new Answer{ActualAnswer = "Increase the size of each virtual machine."},
+                        new Answer{ActualAnswer = "Deploy extra instances of the same virtual machines across the different availability zones in the same Azure region."},
+                        new Answer{ActualAnswer = "Do nothing. Using Azure Load Balancer increases the SLA for virtual machines."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ64);
+                db.Answers.AddRange(AnswersOfQ64);
 
-                question64.Awnsers = AwnsersOfQ64;
-                question64.CorrectAwnser = AwnsersOfQ64.FirstOrDefault(a => a.ActualAwnser == "Deploy extra instances of the same virtual machines across the different availability zones in the same Azure region.");
+                question64.Answers = AnswersOfQ64;
+                question64.CorrectAnswer = AnswersOfQ64.FirstOrDefault(a => a.ActualAnswer == "Deploy extra instances of the same virtual machines across the different availability zones in the same Azure region.");
 
                 db.Add(question64);
 
@@ -1409,16 +1409,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data
                                   "\n\nWhat approach might the company take in adding the augmented reality (AR) preview service to its architecture?",
                     Chapter = ChapterEnum.Azure_Cost_Management_and_service_Level_Agreements,
                 };
-                var AwnsersOfQ65 = new List<Awnser>()
+                var AnswersOfQ65 = new List<Answer>()
                 {
-                        new Awnser{ActualAwnser = "The Special Orders app is already in production. The company shouldn't look into the AR service until the service reaches general availability (GA)."},
-                        new Awnser{ActualAwnser = "The Special Orders app is mainly for use by retail employees. The company can integrate the AR service now because potential downtime or failures aren't an important factor."},
-                        new Awnser{ActualAwnser = "The development team can create a prototype version of the app that includes the AR service that it tests out with select retail employees."},
+                        new Answer{ActualAnswer = "The Special Orders app is already in production. The company shouldn't look into the AR service until the service reaches general availability (GA)."},
+                        new Answer{ActualAnswer = "The Special Orders app is mainly for use by retail employees. The company can integrate the AR service now because potential downtime or failures aren't an important factor."},
+                        new Answer{ActualAnswer = "The development team can create a prototype version of the app that includes the AR service that it tests out with select retail employees."},
                 };
-                db.Awnsers.AddRange(AwnsersOfQ65);
+                db.Answers.AddRange(AnswersOfQ65);
 
-                question65.Awnsers = AwnsersOfQ65;
-                question65.CorrectAwnser = AwnsersOfQ65.FirstOrDefault(a => a.ActualAwnser == "The development team can create a prototype version of the app that includes the AR service that it tests out with select retail employees.");
+                question65.Answers = AnswersOfQ65;
+                question65.CorrectAnswer = AnswersOfQ65.FirstOrDefault(a => a.ActualAnswer == "The development team can create a prototype version of the app that includes the AR service that it tests out with select retail employees.");
 
                 db.Add(question65);
 

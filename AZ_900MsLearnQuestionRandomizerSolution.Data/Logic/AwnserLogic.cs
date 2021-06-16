@@ -8,19 +8,24 @@ using System.Threading.Tasks;
 
 namespace AZ_900MsLearnQuestionRandomizerSolution.Data.Logic
 {
-    public class AwnserLogic : IAwnserLogic
+    public interface IAnswerLogic
+    {
+        public Task<bool> AnswerCheck(Answer answer, Question question);
+        public Task<List<Question>> GetRandomizedList();
+    }
+    public class AnswerLogic : IAnswerLogic
     {
         private readonly ApplicationDbContext context; 
-        public AwnserLogic(ApplicationDbContext context)
+        public AnswerLogic(ApplicationDbContext context)
         {
             this.context = context;
         }
 
-        public Task<bool> AwnserCheck(Awnser awnser, Question question)
+        public Task<bool> AnswerCheck(Answer answer, Question question)
         {
-            var correctAwnser = question.CorrectAwnser;
+            var correctAnswer = question.CorrectAnswer;
 
-            if (correctAwnser == awnser)
+            if (correctAnswer == answer)
             {
                 return Task.FromResult(true);
             }

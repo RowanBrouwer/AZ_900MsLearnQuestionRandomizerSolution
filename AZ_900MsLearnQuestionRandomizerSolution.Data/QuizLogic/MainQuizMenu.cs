@@ -12,7 +12,7 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data.QuizLogic
     public class MainQuizMenu
     {
         private ApplicationDbContext context;
-        private IAwnserLogic awnserlogic;
+        private readonly IAnswerLogic answerlogic;
         private int amount_Correct;
         private int total_Amount;
         private bool quit = false;
@@ -30,22 +30,20 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data.QuizLogic
         private List<Question> Azure_Cost_Management_and_service_Level_Agreements = new List<Question>();
         private int Azure_Cost_Management_and_service_Level_Agreements_Correct = 0;
 
-        public List<Question> questions { get; set; }
-        public MainQuizMenu(ApplicationDbContext context, IAwnserLogic awnserlogic)
+        public List<Question> Questions { get; set; }
+        public MainQuizMenu(ApplicationDbContext context, IAnswerLogic answerlogic)
         {
             this.context = context;
-            this.awnserlogic = awnserlogic;
+            this.answerlogic = answerlogic;
         }
 
         public async Task MainLoop()
         {
-            questions = await awnserlogic.GetRandomizedList();
-            total_Amount = questions.Count();
+            Questions = await answerlogic.GetRandomizedList();
+            total_Amount = Questions.Count();
 
-            foreach (var question in questions)
+            foreach (var question in Questions)
             {
-                if (question != null)
-                {
                     switch (question.Chapter)
                     {
                         case ChapterEnum.Azure_Core_Concepts:
@@ -68,13 +66,12 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data.QuizLogic
                             break;
                         default:
                             break;
-                    }
                 }
             }
 
             while (quit == false)
             {
-                if (question >= questions.Count())
+                if (question >= Questions.Count())
                 {
                     int TotalPercentCorrect = (int)Math.Round((double)(100 * amount_Correct) / total_Amount);
 
@@ -100,34 +97,34 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data.QuizLogic
                     break;
                 }
 
-                var current_question = questions.Skip(question).First();
+                var current_question = Questions.Skip(question).First();
 
                 Console.WriteLine(current_question.ActualQuestion);
                 int count = 1;
 
-                foreach (var awnserInList in current_question.Awnsers)
+                foreach (var answerInList in current_question.Answers)
                 {
-                    Console.WriteLine($"\n{count} : {awnserInList.ActualAwnser}");
+                    Console.WriteLine($"\n{count} : {answerInList.ActualAnswer}");
                     count++;
                 }
 
                 bool parsed = false;
-                int actualIndexAwnser = 0;
-                int parsedAwnser = 0;
+                int actualIndexAnswer = 0;
+                int parsedAnswer = 0;
 
                 do
                 {
-                    Console.WriteLine($"\n\nawnser with 1 - {count - 1}");
-                    var awnser = Console.ReadLine();
+                    Console.WriteLine($"\n\nanswer with 1 - {count - 1}");
+                    var answer = Console.ReadLine();
 
-                    if (awnser == "q")
+                    if (answer == "q")
                     {
                         quit = true;
                     }
 
                     try
                     {
-                        parsedAwnser = int.Parse(awnser);
+                        parsedAnswer = int.Parse(answer);
                     }
                     catch (FormatException ex)
                     {
@@ -135,16 +132,16 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data.QuizLogic
                     }
 
 
-                    actualIndexAwnser = parsedAwnser - 1;
-                    if (!(actualIndexAwnser < 0))
+                    actualIndexAnswer = parsedAnswer - 1;
+                    if (!(actualIndexAnswer < 0))
                     {
                         parsed = true;
                     }
                 } while (!parsed);
 
-                var full_awnser = current_question.Awnsers.ToList()[actualIndexAwnser];
+                var full_answer = current_question.Answers.ToList()[actualIndexAnswer];
 
-                var check = await awnserlogic.AwnserCheck(full_awnser, current_question);
+                var check = await answerlogic.AnswerCheck(full_answer, current_question);
 
                 if (check == true)
                 {
@@ -178,8 +175,10 @@ namespace AZ_900MsLearnQuestionRandomizerSolution.Data.QuizLogic
                 else
                 {
                     question++;
-                    Console.WriteLine("InCorrect");
+                    Console.WriteLine("Incorrect");
                 }
+
+                Console.WriteLine("Press enter to continue...");
 
                 Console.ReadLine();
                 Console.Clear();
